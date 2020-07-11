@@ -6,12 +6,15 @@
     - [Data Gathering](#data-gathering)
     - [Data Exploration](#data-exploration)
     - [Data Pre-processing](#data-pre-processing)
+4. [Result](#result)
     
 <a name='background'></a>
 ## Background
 
+**Hate crime**, or also known as bias motivated crime, is a crime motivated by prejudice or intolerance toward an individual’s membership (or perceived membership) to a certain group. For example, some reported hate crime victim are assaulted just because his skin color is black. Unfortunately this kind of crime slowly became common things. Discrimantion keep increasing even when the majority of society constantly protest againts these. This analysis will create simple vizualitation about hate crime characteristics in US from 2010-2018. The result can be used for another country if the data is available. 
+
 <a name='inspiration'></a>
-## Analysis Question
+## Inspiration
 
 1. How US hate crime trends in 2010 to 2018?
 2. What biases that used for most of the cases?
@@ -56,3 +59,6 @@ Data obtained from [United States Hate Crimes (1991-2018)](https://www.kaggle.co
 
 4. **Rename, Rearangge and Convert DataFrame to .csv**
 <br>Further analysis will be done on Excel. csv format is choos because it easier to processed.
+
+<a name='result'></a>
+### Result
