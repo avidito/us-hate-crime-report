@@ -6,12 +6,12 @@
     - [Data Gathering](#data-gathering)
     - [Data Exploration](#data-exploration)
     - [Data Pre-processing](#data-pre-processing)
-4. [Result](#result)
+4. [Poster](#poster)
     
 <a name='background'></a>
 ## Background
 
-**Hate crime**, or also known as bias motivated crime, is a crime motivated by prejudice or intolerance toward an individual’s membership (or perceived membership) to a certain group. For example, some reported hate crime victim are assaulted just because his skin color is black. Unfortunately this kind of crime slowly became common things. Discrimantion keep increasing even when the majority of society constantly protest againts these. This analysis will create simple vizualitation about hate crime characteristics in US from 2010-2018. The result can be used for another country if the data is available. 
+[**Hate crime**](https://en.wikipedia.org/wiki/Hate_crime), or also known as bias motivated crime, is a crime motivated by prejudice or intolerance toward an individual’s membership (or perceived membership) to a certain group. For example, some reported hate crime victim are assaulted just because his skin color is black. Unfortunately this kind of crime slowly became common things. Discrimantion keep increasing even when the majority of society constantly protest againts these. This analysis will create simple vizualitation about hate crime characteristics in US from 2010-2018. The result can be used for another country if the data is available. 
 
 <a name='inspiration'></a>
 ## Inspiration
@@ -44,6 +44,8 @@ Data obtained from [United States Hate Crimes (1991-2018)](https://www.kaggle.co
 
 1. **Multi-Value Columns Exploration**
 <br>Some columns in HateCrimeTable (hate_crime.csv) have multiple value. These columns are 'OFFENSE_NAME, 'LOCATION_NAME', and 'BIAS_DESC'. These multi-value columns need to be parsed and convert to another table. Another way to improve readability is to cluster each category in multi-value columns. The clustering will use external information as references and will be done manually. Both method will make visualization easier and data more representable.
+<br><br>![multi-value-column-example](https://github.com/avidito/us-hate-crime-report/blob/master/media/multi_value_example.png)
+<br><pre>Example of Column with Multiple Value</pre>
 
 <a name='data-pre-processing'></a>
 ### Data Pre-processing
@@ -52,13 +54,20 @@ Data obtained from [United States Hate Crimes (1991-2018)](https://www.kaggle.co
 <br>This analysis will only using reported incident from 2010 to 2018. Some listed state won't be included too (Guam, Hawaii, and Federal) for the sake of better map visualization.
 
 2. **Clustering Each Category in Multi-Value Columns**
-<br>Category-Cluster mapping can be seen in this file. Cluster will be used to reduce variety of category. This will make vizualiation more readable.
+<br>Category-Cluster mapping can be seen in this file. Cluster will be used to reduce variety of category. This will make vizualiation more readable. Cluster information are shown in [visualization document](https://github.com/avidito/us-hate-crime-report/blob/master/visualization.xlsx).
 
 3. **Parse Multi-Value Columns**
-<br>Multi-value column will be normalized by creating another table.
+<br>Multi-value column will be normalized by creating another table. Each table connected with certain connection, describe by data diagram as follow,
+<br><br>![data-diagram](https://github.com/avidito/us-hate-crime-report/blob/master/media/data_diagram.png)
+<br><pre>                      Data Diagram</pre>
 
 4. **Rename, Rearangge and Convert DataFrame to .csv**
 <br>Further analysis will be done on Excel. csv format is choos because it easier to processed.
 
-<a name='result'></a>
-### Result
+5. **Visualization**
+<br>From the data, two kind of visualization are created: (1) [dashboard](https://github.com/avidito/us-hate-crime-report/blob/master/visualization.xlsx); and (2) poster ([ori](https://github.com/avidito/us-hate-crime-report/blob/master/media/poster.png); [mini](https://github.com/avidito/us-hate-crime-report/blob/master/media/poster_mini.png)). 
+
+<a name='poster'></a>
+### Poster
+
+![poster](https://github.com/avidito/us-hate-crime-report/blob/master/media/poster_mini.png)
