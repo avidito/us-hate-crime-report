@@ -31,6 +31,8 @@
 
 This analysis consist of several steps:
 
+<br>![methodologies](https://github.com/avidito/us-hate-crime-report/blob/master/images/methodologies.png)<br>
+
 This analysis will be using three tools:
 1. **Python 3.7 in Jupyter Notebook (Anaconda)**, for data extraction and preprocessing.
 2. **Excel 365**, for data visualization.
@@ -147,7 +149,7 @@ Total Rows: 57758 (28.68% of the total data)
 
 Multi-value column will be normalized by creating another table. Data diagram for this implementation are shown as follow:
 
-<br>![data-diagram](https://github.com/avidito/us-hate-crime-report/blob/master/media/data_diagram.png)<br>
+<br>![data-diagram](https://github.com/avidito/us-hate-crime-report/blob/master/images/data_diagram.png)<br>
 
 **3. Clustering Categories in Multi-Value Columns**
 
@@ -167,4 +169,4 @@ There are two visualization from these data: (1) [dashboard](https://github.com/
 ## Poster
 [`^ back to top`](#top)
 
-![poster](https://github.com/avidito/us-hate-crime-report/blob/master/media/poster_mini.png)
+![poster](https://github.com/avidito/us-hate-crime-report/blob/master/images/poster_mini.png)
