@@ -1,0 +1,13 @@
+>> Poster 1
+Text/Background - Dark 1  : #000000
+Text/Background - Light 1 : #FFFFFF
+Text/Background - Dark 2  : #202040
+Text/Background - Light 2 : #EEECDA
+Accent 1 : #CDCFB9
+Accent 2 : #B83B5E
+Accent 3 : #6A2C70
+Accent 4 : #FC9D9D
+Accent 5 : #C8A8A8
+Accent 6 : #BA7967
+Hyperlink : #336D88
+Followed Hyperlink : #954F72
