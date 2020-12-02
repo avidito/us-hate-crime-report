@@ -53,6 +53,7 @@ Data obtained from [United States Hate Crimes (1991-2018)](https://www.kaggle.co
 ### II. Data Exploration
 [`^ back to top`](#)
 
+<<<<<<< HEAD
 **HateCrimeTable (hate_crime.csv)** consist of **201.403 rows** and **28 columns**. Below is the list of HateCrimeTable columns and its value type.
 |Column|Type|
 |---|---|
